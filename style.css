@@ -190,7 +190,6 @@ header .link span:hover::after {
     background-color: rgba( 255, 255, 255, 0.5 );
 }
 
-
 .fakultas {
     display: flex;
     flex-direction: row;
@@ -200,15 +199,15 @@ header .link span:hover::after {
     margin: auto;
     justify-content: center;
     position: relative;
-    background-color:  #3FC380;
+    background-color: #3FC380;
 }
+
 .fakultas h2 {
     color: black;
     position: absolute;
     top: -40px;
     font-size: 2em;
 }
-
 
 .card {
     background-color: #00a65a;
@@ -238,7 +237,7 @@ footer img {
     width: 20px;
     height: 20px;
     margin: 5px 5px 0 5px;
-    position: relative;;
+    position: relative;
 }
 
 .box-education {
@@ -276,7 +275,6 @@ footer img {
     width: 100%;
 }
 
-
 .box-left, .box-center, .box-right {
 	width: 300px;
 	height: 320px;
@@ -289,19 +287,17 @@ footer img {
 	margin: 70px 25px 25px 76px;
 	border-radius: 10px;
 	float: left;
- }
+}
 
 .box-left:hover, .box-center:hover, .box-right:hover {
 	background-color:  #2ECC71;
 	color: white;
-
 }
 
-.box-education h3,p{
+.box-education h3, p {
 	margin-top: 10px;
 	margin-bottom: 15px;
 	padding: 0px 20px;
-
 }
 
 .box-education {
@@ -346,7 +342,6 @@ footer img {
     width: 100%;
 }
 
-
 .kotak-kiri, .kotak-tengah, .kotak-kanan {
 	width: 300px;
 	height: 300px;
@@ -359,9 +354,20 @@ footer img {
 	margin: 70px 25px 25px 76px;
 	border-radius: 10px;
 	float: left;
- }
+}
 
 .kotak-kiri:hover, .kotak-tengah:hover, .kotak-kanan:hover {
 	background-color:  #C7EA46;
 	color: black;
 }
+
+/* Responsive Design */
+
+@media (max-width: 1200px) {
+    .card, .box-left, .box-center, .box-right, .kotak-kiri, .kotak-tengah, .kotak-kanan {
+        width: 45%;
+    }
+}
+
+@media (max-width: 768px) {
+    .card, .box-left, .box-center, .box-right, .kotak-kiri, .kotak-tengah, .kotak-kanan {
